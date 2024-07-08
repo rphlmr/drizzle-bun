@@ -1,0 +1,17 @@
+{
+  "name": "sqlite-package",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "dependencies": {
+    "drizzle-kit": "0.22.8",
+    "drizzle-orm": "0.31.2"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "better-sqlite3": "^11.1.2",
+    "bun-types": "^1.1.18",
+    "typescript": "^5.5.3"
+  }
+}
